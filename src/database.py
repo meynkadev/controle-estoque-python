@@ -53,10 +53,7 @@ def criar_tabela():
     conexao.commit()
     conexao.close()
 
-
 if __name__ == "__main__":
     criar_tabela()
-
-    remover_produto(5)
     produtos = listar_produtos()
     print(produtos)
