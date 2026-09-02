@@ -52,8 +52,3 @@ def criar_tabela():
     """)
     conexao.commit()
     conexao.close()
-
-if __name__ == "__main__":
-    criar_tabela()
-    produtos = listar_produtos()
-    print(produtos)
