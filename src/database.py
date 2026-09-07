@@ -7,7 +7,7 @@ def inserir_produto(nome, preco, quantidade):
     if not isinstance(preco, (int, float)) or preco <= 0:
         raise ValueError("O preço deve ser um número maior que zero")
 
-    if not isinstance(quantidade, int) or quantidade >= 0:
+    if not isinstance(quantidade, int) or quantidade <= 0:
         raise ValueError("A quantidade deve ser um número inteiro maior ou igual a zero")
     
     conexao = sqlite3.connect("estoque.db")
