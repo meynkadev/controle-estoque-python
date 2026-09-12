@@ -2,6 +2,8 @@
 
 Sistema de gestão de estoque desenvolvido em Python, com persistência em banco de dados SQLite. Permite cadastrar, listar, atualizar e remover produtos, com validação de dados e tratamento de erros. Disponível em duas interfaces: linha de comando (terminal) e interface visual web (Streamlit).
 
+🔗 **[Acesse a demonstração ao vivo](https://controle-estoque-meynka.streamlit.app)**
+
 ## 🖥️ Demonstração
 
 ### Interface via terminal (CLI)
